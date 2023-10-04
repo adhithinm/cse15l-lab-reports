@@ -38,11 +38,36 @@ The `cd` command allows the user to move between directories.
 
 `no arguments` 
 
+<details>
+<summary> Image </summary>
+<br>
+
+<img width="1440" alt="Screenshot 2023-10-04 at 9 30 50 AM" src="https://github.com/adhithinm/cse15l-lab-reports/assets/146797389/fe9d483c-fb66-48ab-b1b0-13686d14b723">
+
+</details>
+
 `path to a directory` 
+
+<details>
+<summary> Image </summary>
+<br>
+
+<img width="1440" alt="Screenshot 2023-10-04 at 9 33 01 AM" src="https://github.com/adhithinm/cse15l-lab-reports/assets/146797389/18944df2-e325-4286-9ab5-6abc62a2df0e">
+
+</details>
 
 `path to a file` 
 
 This is actually invalid. The `cd` command does not allow a user to go to a file. 
+
+<details>
+<summary> Image </summary>
+<br>
+
+<img width="1440" alt="Screenshot 2023-10-04 at 9 34 30 AM" src="https://github.com/adhithinm/cse15l-lab-reports/assets/146797389/b9aa751f-6d9a-4ad5-97ca-f6a484839d52">
+
+
+</details>
 
 ### `ls` command 
 
