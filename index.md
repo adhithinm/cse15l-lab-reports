@@ -77,9 +77,31 @@ The `ls` command lists files in a certain directory.
 
 `no arguments` 
 
+<details>
+<summary> Image </summary>
+<br>
+<img width="1440" alt="Screenshot 2023-10-04 at 9 44 55 AM" src="https://github.com/adhithinm/cse15l-lab-reports/assets/146797389/b029df37-1ad0-4449-93d6-aadb4790ebae">
+</details>
+
 `path to a directory` 
 
+<details>
+<summary> Image </summary>
+<br>
+<img width="1440" alt="Screenshot 2023-10-04 at 9 45 40 AM" src="https://github.com/adhithinm/cse15l-lab-reports/assets/146797389/dfc74449-70b8-4691-bfd3-81d5c15419ec">
+</details>
+
 `path to a file` 
+
+Not possible. It will just list the file. 
+
+<details>
+<summary> Image </summary>
+<br>
+<img width="1440" alt="Screenshot 2023-10-04 at 9 48 10 AM" src="https://github.com/adhithinm/cse15l-lab-reports/assets/146797389/66ea019f-50cc-4380-93c4-a642a828c4ea">
+
+</details>
+
 
 ### `cat` command 
 
