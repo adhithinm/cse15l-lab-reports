@@ -30,50 +30,45 @@ You’ll submit a lab report by writing a blog post about the basic filesystem c
 
 </details>
 
-### `cd` command 
+
+`cd` command 
+-
 
 #### What is the `cd` command and what does it do? 
 
 The `cd` command allows the user to move between directories. 
 
-`no arguments` 
+### `no arguments` 
 
+I was not in a directory and I tried to follow the commands. Having no arguments didn't do anything to the terminal; it had no output. There is no output, and this is not an error. 
 <details>
 <summary> Image </summary>
 <br>
-
 <img width="1440" alt="Screenshot 2023-10-04 at 9 30 50 AM" src="https://github.com/adhithinm/cse15l-lab-reports/assets/146797389/fe9d483c-fb66-48ab-b1b0-13686d14b723">
-
-
 </details>
 
-`path to a directory` 
+### `path to a directory` 
+
+I was not in any directory when initially starting, so I used `cd` to move into a directory. I got this output because that was the goal of using `cd` followed by the name of the directory. As a result, this is not an error. 
 
 <details>
 <summary> Image </summary>
 <br>
-
 <img width="1440" alt="Screenshot 2023-10-04 at 9 33 01 AM" src="https://github.com/adhithinm/cse15l-lab-reports/assets/146797389/18944df2-e325-4286-9ab5-6abc62a2df0e">
-
 </details>
 
-`path to a file` 
+### `path to a file` 
 
-This is actually invalid. The `cd` command does not allow a user to go to a file. 
+This is actually invalid. The `cd` command does not allow a user to go to a file, which makes this an error. I began in no directory, and then moved into a directory, but could not use the `cd` command followed by the name of a file because that was not what this command was meant to do. 
 
 <details>
 <summary> Image </summary>
 <br>
-
 <img width="1440" alt="Screenshot 2023-10-04 at 9 34 30 AM" src="https://github.com/adhithinm/cse15l-lab-reports/assets/146797389/b9aa751f-6d9a-4ad5-97ca-f6a484839d52">
-
-
 </details>
 
-
-
-
-### `ls` command 
+`ls` command 
+-
 
 #### What is the ls command and what does it do? 
 
