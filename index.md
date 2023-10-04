@@ -48,7 +48,7 @@ This is actually invalid. The `cd` command does not allow a user to go to a file
 
 #### What is the ls command and what does it do? 
 
-The `cd` command lists files in a certain directory. 
+The `ls` command lists files in a certain directory. 
 
 `no arguments` 
 
@@ -60,7 +60,7 @@ The `cd` command lists files in a certain directory.
 
 #### What is the cat command and what does it do? 
 
-The `cat` command reads in data from the file argument and displays that data as an output in terminal. 
+The `cat` command reads in data from the file argument and displays that data as an output in terminal. It prints out the contents of a file. 
 
 `no arguments` 
 
