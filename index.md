@@ -44,6 +44,7 @@ The `cd` command allows the user to move between directories.
 
 <img width="1440" alt="Screenshot 2023-10-04 at 9 30 50 AM" src="https://github.com/adhithinm/cse15l-lab-reports/assets/146797389/fe9d483c-fb66-48ab-b1b0-13686d14b723">
 
+
 </details>
 
 `path to a directory` 
@@ -68,6 +69,9 @@ This is actually invalid. The `cd` command does not allow a user to go to a file
 
 
 </details>
+
+
+
 
 ### `ls` command 
 
@@ -111,6 +115,27 @@ The `cat` command reads in data from the file argument and displays that data as
 
 `no arguments` 
 
+<details>
+<summary> Image </summary>
+<br>
+<img width="1440" alt="Screenshot 2023-10-04 at 11 03 39 AM" src="https://github.com/adhithinm/cse15l-lab-reports/assets/146797389/2691ffb3-bc33-4ea4-a625-8d7baddcbe54">
+</details>
+
 `path to a directory` 
 
+<details>
+<summary> Image </summary>
+<br>
+<img width="1440" alt="Screenshot 2023-10-04 at 11 05 10 AM" src="https://github.com/adhithinm/cse15l-lab-reports/assets/146797389/2c01efdf-1cd1-479f-811d-32774c1a8241">
+</details>
+
+
 `path to a file` 
+
+<details>
+<summary> Image </summary>
+<br>
+<img width="1440" alt="Screenshot 2023-10-04 at 11 07 07 AM" src="https://github.com/adhithinm/cse15l-lab-reports/assets/146797389/3fc19508-5f4a-4f9f-bc86-30fe21dcb030">
+
+</details>
+
