@@ -1,21 +1,69 @@
 ### Lab Report 1 - Remote Access and FileSystem (Week 1)
 
 
+<!-- Lab Report 1 Directions---> 
+
 <details>
 <summary>Lab Report 1 Directions</summary>
 <br>
-*You’ll submit a lab report by writing a blog post about the basic filesystem commands we learned today. You should create the post, like we just described using Github Pages. The lab report is due Monday, October 9 by 10pm. See the FAQ below for common questions, including how to add images and what to submit to Gradescope.*
+You’ll submit a lab report by writing a blog post about the basic filesystem commands we learned today. You should create the post, like we just described using Github Pages. The lab report is due Monday, October 9 by 10pm. See the FAQ below for common questions, including how to add images and what to submit to Gradescope.
 
-*For each of the commands cd, ls, and cat, and using the workspace you created in this lab:*
+#### For each of the commands cd, ls, and cat, and using the workspace you created in this lab:
 
-*- Share an example of using the command with no arguments.*
-*- Share an exmaple of using the command with a path to a directory as an argument.*
-*- Share an example of using the command with a path to a file as an argument.*
-*- So that’s 9 total examples (3 for each command). For each, include:*
-    *- A screenshot or Markdown code block showing the command and its output*
-    *- What the working directory was when the command was run*
-    *- A sentence or two explaining why you got that output (e.g. what was in the filesystem, what it meant to have no arguments).*
-    *-Indicate whether the output is an error or not, and if it’s an error, explain why it’s an error.*
+*• Share an example of using the command with no arguments.*
+
+*•  Share an exmaple of using the command with a path to a directory as an argument.*
+
+*• Share an example of using the command with a path to a file as an argument.*
+
+#### So that’s 9 total examples (3 for each command). For each, include:
+   
+   *• A screenshot or Markdown code block showing the command and its output*
+  
+   *• What the working directory was when the command was run*
+   
+   *• A sentence or two explaining why you got that output (e.g. what was in the filesystem, what it meant to have no arguments).*
+    
+   *• Indicate whether the output is an error or not, and if it’s an error, explain why it’s an error.*
 
 *You will upload your submission by publishing the page on Github Pages, then printing the page to PDF and uploading to the Lab Report 1 assignment on Gradescope.*
+
 </details>
+
+### `cd` command 
+
+#### What is the `cd` command and what does it do? 
+
+The `cd` command allows the user to move between directories. 
+
+`no arguments` 
+
+`path to a directory` 
+
+`path to a file` 
+
+This is actually invalid. The `cd` command does not allow a user to go to a file. 
+
+### `ls` command 
+
+#### What is the ls command and what does it do? 
+
+The `cd` command lists files in a certain directory. 
+
+`no arguments` 
+
+`path to a directory` 
+
+`path to a file` 
+
+### `cat` command 
+
+#### What is the cat command and what does it do? 
+
+The `cat` command reads in data from the file argument and displays that data as an output in terminal. 
+
+`no arguments` 
+
+`path to a directory` 
+
+`path to a file` 
