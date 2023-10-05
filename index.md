@@ -75,7 +75,7 @@ This is actually invalid. The `cd` command does not allow a user to go to a file
 The `ls` command lists files in a certain directory. 
 
 `no arguments` 
-
+Typing in `ls` gives us the name of the directory. When I move into another directory and use the `ls` command, the files, classes, and directories. There is no error here, since that is what the command is supposed to do. 
 <details>
 <summary> Image </summary>
 <br>
@@ -83,7 +83,7 @@ The `ls` command lists files in a certain directory.
 </details>
 
 `path to a directory` 
-
+When I use the `ls` command with a directory, it lists the directories in the direcotyr and other text files. There is no error here, since that is what the `ls` command is supposed to do. There is not error. 
 <details>
 <summary> Image </summary>
 <br>
@@ -91,8 +91,7 @@ The `ls` command lists files in a certain directory.
 </details>
 
 `path to a file` 
-
-Not possible. It will just list the file. 
+Not possible. It will just list the file. Even though this command runs with a file name, it just returns the file name, and doesn't do anything, which is an error. 
 
 <details>
 <summary> Image </summary>
