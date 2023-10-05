@@ -109,6 +109,7 @@ The `cat` command reads in data from the file argument and displays that data as
 
 `no arguments` 
 
+This is invalid. When using the `cat` command with no arguments, the terminal waits for another input. If I stop the page, then the command does not do anything. This is an error;  `cat` should not be able to handle no arguments. 
 <details>
 <summary> Image </summary>
 <br>
@@ -116,7 +117,7 @@ The `cat` command reads in data from the file argument and displays that data as
 </details>
 
 `path to a directory` 
-
+This is not valid and is an error because the `cat` command is not designed to read directories; it is designed for reading files. 
 <details>
 <summary> Image </summary>
 <br>
@@ -125,6 +126,7 @@ The `cat` command reads in data from the file argument and displays that data as
 
 
 `path to a file` 
+This is not an error. `cat` followed by the file name results in the ouput of the contents of that file, after we enter the directory that the file is directly in. 
 
 <details>
 <summary> Image </summary>
