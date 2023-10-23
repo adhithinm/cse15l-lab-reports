@@ -16,7 +16,6 @@ Part 1
     List<String> list = new ArrayList<>();`
 
     // a method that returns the string of the website. If not found, we return a 404 error.
-    @Override
     public String handleRequest(URI url) {
         if (url.getPath().equals("/")) {
             return "Word List: " + list;
@@ -56,5 +55,22 @@ Part 1
 
 ## Screenshot 1 <img width="1440" alt="Screenshot 2023-10-22 at 9 33 22 PM" src="https://github.com/adhithinm/cse15l-lab-reports/assets/146797389/42eac82e-6300-470e-9e23-fc546acd3604">
 
+#### Which methods in your code are called?
+URL Handler and String Server
+
+#### What are the relevant arguments to those methods, and the values of any relevant fields of the class?
+parameters[1] 
+
+#### How do the values of any relevant fields of the class change from this specific request? If no values got changed, explain why.
+parameters[1] gets changed when there is a new string in the add message url routing. 
 
 ## Screen 2 <img width="1440" alt="Screenshot 2023-10-22 at 9 36 35 PM" src="https://github.com/adhithinm/cse15l-lab-reports/assets/146797389/87863d2f-2b5c-48f5-b91c-ecbc9dac4197">
+
+#### Which methods in your code are called?
+URL Handler and String Server
+
+#### What are the relevant arguments to those methods, and the values of any relevant fields of the class?
+parameters[1] 
+
+#### How do the values of any relevant fields of the class change from this specific request? If no values got changed, explain why.
+parameters[1] gets changed when there is a new string in the add message url routing. 
