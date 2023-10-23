@@ -74,3 +74,19 @@ parameters[1]
 
 #### How do the values of any relevant fields of the class change from this specific request? If no values got changed, explain why.
 parameters[1] gets changed when there is a new string in the add message url routing. 
+
+Part 2
+- 
+
+Using the command line, show with ls and take screenshots of:
+
+The path to the private key for your SSH key for logging into ieng6 (on your computer or on the home directory of the lab computer)
+The path to the public key for your SSH key for logging into ieng6 (within your account on ieng6)
+A terminal interaction where you log into ieng6 with your course-specific account without being asked for a password.
+
+<img width="1440" alt="Screenshot 2023-10-22 at 11 00 48 PM" src="https://github.com/adhithinm/cse15l-lab-reports/assets/146797389/1d9a91fa-2898-46e3-813e-17a12694b6e9">
+
+Part 3
+-
+#### In a couple of sentences, describe something you learned from lab in week 2 or 3 that you didn’t know before.
+I didn't know about how web servers worked, and how the routing system worked for them. I didn't realize that there was code based on what the link was on, and I didn't know what the question marks and random symbols in the url path stood for. Now, I know that they stood for the query and input, and it told the program what to do with them. 
