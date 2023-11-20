@@ -11,11 +11,15 @@ Edit: It's not supposed to be; it comes up with the website link and format. Thi
 Reverse in Place 
 
 #### A failure-inducing input for the buggy program, as a JUnit test and any associated code (write it as a code block in Markdown)
+```
 int[] input1 = { 3 , 5};
+```
 
 
 #### An input that doesn’t induce a failure, as a JUnit test and any associated code (write it as a code block in Markdown)
+```
 int[] input1 = { 3 };
+```
 
 #### The symptom, as the output of running the tests (provide it as a screenshot of running JUnit with at least the two inputs above)
 
