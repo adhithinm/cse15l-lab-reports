@@ -3,6 +3,9 @@
 Part 1 
 - 
 
+Comment: The link is not clickable. 
+Edit: It's not supposed to be; it comes up with the website link and format. This is not part of the actual lab report. 
+
 ### Provide:
 #### Name of method: 
 Reverse in Place 
@@ -15,17 +18,28 @@ int[] input1 = { 3 , 5};
 int[] input1 = { 3 };
 
 #### The symptom, as the output of running the tests (provide it as a screenshot of running JUnit with at least the two inputs above)
-{image} 
+
+Comment: Image not visible. 
+Edit: Here's the image. 
+<img width="630" alt="Screenshot 2023-11-19 at 5 04 55 PM" src="https://github.com/adhithinm/cse15l-lab-reports/assets/146797389/f34ac3bb-373d-4560-ba59-c56feb88910e">
+
 
 #### The bug, as the before-and-after code change required to fix it (as two code blocks in Markdown)
 ##### Before: 
 
+Comment: Code markdown format incorrect. 
+Edit: Fixed. 
+
 `
-static void reverseInPlace(int[] arr) {
-  for(int i = 0; i < arr.length; i += 1) {
-    arr[i] = arr[arr.length - i - 1];
-  }
-}
+static void reverseInPlace(int[] arr) { `
+  
+  `  for(int i = 0; i < arr.length; i += 1) {`
+   
+   `     arr[i] = arr[arr.length - i - 1];`
+ 
+ ` }`
+
+`}`
 `
 
 
