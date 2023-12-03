@@ -1,0 +1,26 @@
+ For the lab report this week, reproduce the task from above on your own. For each numbered step starting right after the timer (so steps 4-9), take a screenshot, and write down exactly which keys you pressed to get to that step. For special characters like <enter> or <tab>, write them in angle brackets with code formatting. Then, summarize the commands you ran and what the effect of those keypresses were.
+
+Step 4: Log into ieng6
+ssh cs15lfa23il@ieng6.ucsd.edu Yes <password>
+
+
+Step 5: Clone your fork of the repository from your Github account (using the SSH URL)
+
+git clone https://github.com/adhithinm/lab7.git
+
+
+Step 6: Run the tests, demonstrating that they fail
+Bash test.sh
+
+
+Step 7: Edit the code file to fix the failing test
+j l x i 2 <escape> : w q ! <enter> 
+
+Step 8: Run the tests, demonstrating that they now succeed
+
+
+Step 9: Commit and push the resulting change to your Github account (you can pick any commit message!)
+
+Git commit -a 
+
+i Error fixed! <escape> : w q ! <enter> 
