@@ -11,18 +11,30 @@ Yes
 ```
 This was simply typed. My password was also typed. 
 
+EDIT: SCREENSHOT FOR STEP 4 ADDED
+
+<img width="986" alt="Screenshot 2023-12-03 at 12 28 39 PM" src="https://github.com/adhithinm/cse15l-lab-reports/assets/146797389/2898afb4-707d-4b47-af8a-4bb3053b790f">
+
+
 #### Step 5: Clone your fork of the repository from your Github account (using the SSH URL)
 ```
 git clone https://github.com/adhithinm/lab7.git
 ```
 <img width="601" alt="Screenshot 2023-11-19 at 5 46 00 PM" src="https://github.com/adhithinm/cse15l-lab-reports/assets/146797389/b9a07cb6-a982-4fa4-94aa-f8ec2f7dbe2f">
-This was typed; I typed in git clone, and pasted the cloning url into my terminal. 
+This was typed; I typed in 
+
+EDIT: FIXED ANGLE BRACKETS FOR CODE BLOCKS
+
+```
+git clone
+```
+ and pasted the cloning url into my terminal using `<ctrl-v>`. EDIT: ADDED CONTROL V COMMAND HERE 
 
 #### Step 6: Run the tests, demonstrating that they fail
 ```
 bash test.sh
 ```
-I used the up arrow to bring back the command and use it again. 
+I used the `<up>` arrow to bring back the command and use it again. EDIT: FIXED UP ARROW TO LOOK LIKE A CODE BLOCK
 
 This command runs the test.sh script file, and turns all of the commands in the file. This makes it easier so that I don't have to type in the same string of commands each time I want to do them. 
 <img width="600" alt="Screenshot 2023-11-19 at 5 45 50 PM" src="https://github.com/adhithinm/cse15l-lab-reports/assets/146797389/0fbdbd51-7f7e-42f3-be88-1bae20051073">
@@ -39,7 +51,7 @@ i
 :wq!
 <enter> 
 ```
-I used these keys to edit the failing test, and to navigate, I used the j arrow and l arrow which is possible in Vim. 
+I used these keys to edit the failing test, and to navigate, I used the `j` arrow and `l` arrow which is possible in Vim. EDIT: FIXED CODE BLOCKS FOR LETTERS I TYPED IN. 
 I clicked `j` to navigate down to the area I wanted to fix, and I used `l` to navigate to the right of the file. 
 Then I used `x` to delete the character, just once. 
 I clicked `i` to insert the character `2`. 
@@ -51,7 +63,9 @@ Then I clicked `<enter>` to exit out of the command.
 
 #### Step 8: Run the tests, demonstrating that they now succeed
 
-I used the up arrow to bring back the command and use it again. 
+EDIT: FIXED THE UP ARROW TO BE WRITTEN AS CODE BLOCK 
+
+I used the `<up>` arrow to bring back the command and use it again. 
 ```
 bash test.sh
 ```
@@ -62,15 +76,20 @@ This command runs the test.sh script file, and turns all of the commands in the 
 #### Step 9: Commit and push the resulting change to your Github account (you can pick any commit message!)
 
 ```
+git add
 git commit -a
 i
 Error fixed!
 <escape>
 :wq!
 <enter>
+git push origin main
 ``` 
+The `git add ` helps me add the file edits. 
 The `git commit -a ` helps me commit the file with a message. 
 `i` allows me to insert my own text, which I did when I typed `Error fixed!`. 
 I then used the `<escape>` button to exit out of typing and editing the file. 
 Then I pressed `:wq!` to save and exit the file in one command. 
 Then I hit `<enter>` to return to editing and navigating using Vim. 
+Then I typed in `git push origin main` to push my edits to the main branch of the repository. 
+EDIT: I ADDED GIT PUSH AND ADD TO STEP 9. 
